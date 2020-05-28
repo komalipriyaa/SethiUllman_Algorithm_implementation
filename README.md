@@ -1,6 +1,6 @@
 # SethiUllman_Algorithm_implementation
 
-*Generates code for expression trees (not dags).\n
+*Generates code for expression trees (not dags).
 *Target machine model is simple. Has a load instruction, a store instruction, and binary operations involving either a register and a memory, or two registers.
 *Does not use algebraic properties of operators. If a∗b has to be evaluated using r1 ← r1 ∗r2, then a and b have to be necessarily loaded in r1 and r2 respectively. 
 *Extensions to take into account algebraic properties of operators. 
